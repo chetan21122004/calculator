@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <h1>Calculator by Chetan</h1>
+    <div class="cal">
+      <input type="text" name="" readonly placeholder="0" id="" />
+      <div class="buton">
+        <button style="background-color: rgb(250, 140, 140);"
+          class="but x"
+          onclick="
+           clval(); "
+        >
+          X 
+        </button>
+
+          <!-- here  learn about eval() that very helpful it auto 
+          cal val    -->
+         <button
+          style="width: 44%;
+          background-color: #f9e377;"
+          class="but eql"
+          onclick=" equal();">
+          =
+        </button>
+
+        <button
+          class="but"
+          onclick="   dis = dis+'*';
+          input.value = dis; "
+        >
+          *
+        </button>
+
+        <button
+          class="but"
+          onclick="
+          dis = dis+ '1';
+          input.value = dis; "
+        >
+          1
+        </button>
+
+
+        <button
+          class="but"
+          onclick="
+            dis = dis+ '2';
+            input.value = dis; "
+        >
+          2
+        </button>
+
+        <button
+          class="but"
+          onclick="
+        dis = dis+ '3';
+            input.value = dis;"
+        >
+          3
+        </button>
+
+        <button
+          class="but"
+          onclick="
+                 dis = dis+'+';
+                input.value = dis;"
+        >
+          +
+        </button>
+
+        <button
+          class="but"
+          onclick="
+        dis = dis+ '4';
+        input.value = dis; "
+        >
+          4
+        </button>
+
+        <button
+          class="but"
+          onclick="dis = dis+'5';
+        input.value = dis;"
+        >
+          5
+        </button>
+
+        <button
+          class="but"
+          onclick="dis = dis+'6';
+        input.value = dis;"
+        >
+          6
+        </button>
+
+
+        <button
+          class="but"
+          onclick="dis = dis+ '-';
+    input.value = dis;"
+        >
+          -
+        </button>
+
+        <button
+          class="but"
+          onclick="dis = dis+ '7';
+        input.value = dis; "
+        >
+          7
+        </button>
+
+        <button
+          class="but"
+          onclick="dis = dis+ '8';
+        input.value = dis; "
+        >
+          8
+        </button>
+
+        <button
+          class="but"
+          onclick="dis = dis+ '9';
+        input.value = dis;"
+        >
+          9
+        </button>
+
+
+        <button
+          class="but"
+          onclick="dis = dis+ '/';
+        input.value = dis; "
+        >
+          /
+        </button>
+
+        <button
+          class="but"
+          onclick="dis = dis +'10';
+        input.value = dis;"
+        >
+          10
+        </button>
+
+        <button
+          class="but"
+          onclick="dis = dis+ '0';
+        input.value = dis;"
+        >
+          0
+        </button>
+
+        <button
+          class="but"
+          onclick="dis = dis+ '.';
+        input.value = dis;"
+        >
+          .
+        </button>
+
+        
+        
+        <button
+        class="but"
+        onclick="dis = dis +'**';
+        input.value = dis;"
+        >
+        x <sup>n</sup>
+      </button>
+      <button
+        class="but"
+        onclick="dis = dis+ '00';
+      input.value = dis;"
+      >
+        00
+      </button>
+      
+
+
+
+        <button style="background-color: rgb(250, 140, 140);
+        height: 40px;
+        width: 88px;"
+        
+        class="but"
+        onclick="
+         clall(); "
+      >
+        C All
+      </button>
+      <button
+          class="but"
+          onclick="dis = dis+ '3.141';
+        input.value = dis;"
+        >
+          Pi
+        </button>
+     
+
+      </div>
+
+    </div>
+
+  </body> 
+  <script src="script.js"></script>
+  
+
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
